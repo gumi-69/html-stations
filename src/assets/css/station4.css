@@ -1,6 +1,18 @@
+header {
+    background-color: #fff;
+    height: 30px;
+
+}
+
+.main {
+    background-color: #C4C4C4;
+    height: 600px;
+}
+
 .card {
     background-color: #fff;
     padding: 5px;
+    margin: 30px;
 }
 
 .card__title {
@@ -23,4 +35,9 @@
 
 p {
     margin: 0px;
+}
+
+footer {
+    background-color: #fff;
+    height: 30px;
 }
