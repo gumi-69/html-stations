@@ -13,9 +13,6 @@ main {
     background-color: #fff;
     padding: 5px;
     margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .card__title {
@@ -43,4 +40,10 @@ p {
 footer {
     background-color: #fff;
     height: 30px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
