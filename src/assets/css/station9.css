@@ -8,6 +8,14 @@ main {
     background-color: #C4C4C4;
 }
 
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .card {
     background-color: #fff;
     padding: 5px;
@@ -41,12 +49,4 @@ main {
 footer {
     background-color: #fff;
     height: 30px;
-}
-
-.card-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
 }
