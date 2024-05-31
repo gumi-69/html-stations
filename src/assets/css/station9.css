@@ -13,6 +13,7 @@ main {
     padding: 5px;
     margin: 30px;
     width: 300px;
+    border-radius: 5px;
 }
 
 .card__title {
@@ -33,7 +34,7 @@ main {
 
 }
 
-p {
+.card p {
     margin: 0px;
 }
 
