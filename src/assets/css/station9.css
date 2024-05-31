@@ -13,8 +13,7 @@ main {
     background-color: #fff;
     padding: 5px;
     margin: 30px;
-    flex: auto;
-    width: 50%;
+    width: 300px;
 }
 
 .card__title {
@@ -49,4 +48,5 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
