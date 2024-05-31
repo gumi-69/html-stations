@@ -13,20 +13,22 @@ main {
     background-color: #fff;
     padding: 5px;
     margin: 30px;
+    flex: auto;
+    width: 50%;
 }
 
-.card__title {
+.title {
     color: #282828;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-.card__description {
+.description {
     color: #282828;
     font-size: 12px;
 }
 
-.card__img-top {
+.img-top {
     width: 288px;
     height: 182px;
     margin-bottom: 10px;
@@ -46,4 +48,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
