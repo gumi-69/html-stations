@@ -50,3 +50,21 @@ footer {
     background-color: #fff;
     height: 30px;
 }
+
+@media (max-width:768px) {
+    .card__title {
+        font-size: 10px;
+    }
+    .card__description {
+        font-size: 8px;
+    }
+}
+
+@media (max-width:320px) {
+    .card__title {
+        font-size: 13px;
+    }
+    .card__description {
+        display: none;
+    }
+}
