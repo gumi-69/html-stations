@@ -13,5 +13,6 @@ const object = {
 };
 
 function getData() {
-  return object.func();
+  const globalFunc = object.func.bind(globalThis);
+  return globalFunc();
 }
